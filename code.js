@@ -162,6 +162,7 @@ function draw(){
             fill(127, 219, 218)
             textSize(13)
             text("Profiles might be repeated because their might be a same profile matching multiple entries.",130, 50)
+            text("Names might be repeated because there are multiple entries with the same name.", 130, 70)
             textSize(26)
             fill(127, 219, 218)
             text("Matched Profile:",530,100)
