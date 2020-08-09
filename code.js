@@ -81,7 +81,7 @@ function draw(){
         text("Important Message:",30,100)
         textSize(13)
         text("Please turn up volume and unmute site/computer",30,150);
-        text("If background music is not playing right now, please reload.",30,170)
+        text("If background music is not playing right now, please change volume and then reload.",30,170)
         text('The characters are meant to be speaking. If there is awkward silence after you press start, or between dialogues, please reload.',30,190)
         text("There should be a character to the bottom right of this text. If not, reload.",30,210)
         text('Please click Start if you have finished reading this message.', 30, 230)
@@ -162,7 +162,7 @@ function draw(){
             fill(127, 219, 218)
             textSize(13)
             text("Profiles might be repeated because their might be a same profile matching multiple entries.",130, 50)
-            text("Names might be repeated because there are multiple entries with the same name.", 130, 70)
+            text("Names might be repeated because there are multiple entries with the same name.", 140, 70)
             textSize(26)
             fill(127, 219, 218)
             text("Matched Profile:",530,100)
